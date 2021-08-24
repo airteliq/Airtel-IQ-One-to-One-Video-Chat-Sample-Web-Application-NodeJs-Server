@@ -20,7 +20,7 @@ The Server APIs facilitate video communication by performing the following seque
 
 Follow the steps given below to generate API Credentials required to access Airtel IQ: 
 
-* Create a free account on [Airtel IQ ](https://cpaasportal.videoiq.airtel.in/)
+* [Access Airtel Video IQ Portal](https://cpaasportal.videoiq.airtel.in/)
 
 * Create your Project 
 
@@ -68,11 +68,14 @@ Clone or download any of the following client applications based on your require
 
   * Javascript
 
-      * [One to One video call](https://github.com/airteliq/one-to-one-Video-Chat-Sample-Web-Application-Javascript-Client)
+      * [One to One video call](https://github.com/airteliq/Airtel-IQ-one-to-one-Video-Chat-Sample-Web-Application-Javascript-Client)
 
       * [Multiparty video call](https://github.com/airteliq/Airtel-IQ-One-to-One-Video-Chat-Sample-Web-Application-Javascript-Client.git)
   * React Js
       * [One to One video call](https://github.com/airteliq/Airtel-IQ-One-to-One-Video-Chat-Sample-Web-Application-Reactjs-Client)
+  
+  * Angular
+      * [One to One video call](https://github.com/airteliq/Airtel-IQ-One-to-One-Video-Chat-Sample-Angular-Application-Client)
 
 
    
@@ -147,9 +150,9 @@ A video Application Server communicates with Airtel IQ Video Service using Airte
 
 This sample Application Server demonstrates only primitive usage of Server APIs, however it is worth noting that the capabilities of Airtel IQ Server APIs are not limited to provisioning a meeting room. Explore Airtel IQ Server APIs to utilize them in the best way to meet your workflow and business requirements. 
 
-[Basics Understanding and Authentication](https://developer.videoiq.airtel.in/video/server-api/)   
+[Basics Understanding and Authentication](https://videoiq.airtel.in/video/server-api/)   
 
-[Latest Version of Server API Routes](https://developer.videoiq.airtel.in/video-api/server-api/) 
+[Latest Version of Server API Routes](https://videoiq.airtel.in/video-api/server-api/) 
 
  
 
@@ -157,6 +160,6 @@ This sample Application Server demonstrates only primitive usage of Server APIs,
 
 Airtel IQ provides a library of Documentations, How-to Guides, and Sample Codes to help software developers, interested in embedding RTC in their applications. 
 
-Refer to the [Complete Developer’s Guide](https://developer.videoiq.airtel.in) for more details. 
+Refer to the [Complete Developer’s Guide](https://videoiq.airtel.in) for more details. 
 
 For any queries, you may also write to us at [support@videoiq.airtel.in](). 
