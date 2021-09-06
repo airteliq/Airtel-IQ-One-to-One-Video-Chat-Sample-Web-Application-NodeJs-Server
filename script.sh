@@ -1,7 +1,7 @@
   #!/bin/sh
 
   # CLone the Github Repositry  
-   git clone https://github.com/ssamanvaya98/one-to-One-Video-Chat-Sample-Web-Application-NodeJs-Server.git
+   git clone https://github.com/airteliq/Airtel-IQ-One-to-One-Video-Chat-Sample-Web-Application-NodeJs-Server.git
 
   #Creating Self-Signed Certficate path ./one-to-One-Video-Chat-Sample-Web-Application-NodeJs-Server
    cd one-to-One-Video-Chat-Sample-Web-Application-NodeJs-Server

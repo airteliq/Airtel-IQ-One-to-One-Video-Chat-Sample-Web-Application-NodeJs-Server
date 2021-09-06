@@ -1,4 +1,4 @@
-# Video Application Server Code Sample in Node.js 
+# Video Application Server Code Sample in Node.js and Airtel IQ Web Toolkit
 
 This Application Server code sample in Node.js facilitates communication between your client application and Airtel IQ Video Server. The communication takes place with the help of a Rest API service known as Airtel IQ Server API that allows you to provision a video room on the Airtel IQ Server and create a token to access the video room.    
 
@@ -30,7 +30,7 @@ Follow the steps given below to generate API Credentials required to access Airt
 
 * Clone this ``` git clone https://github.com/airteliq/Airtel-IQ-One-to-One-Video-Chat-Sample-Web-Application-NodeJs-Server.git```
 
-### 1.1.3. Get SSL Certificate 
+### 1.1.3 Get SSL Certificate 
 
 Application Server must run on a secured Web Server hence use a valid SSL Certificate for your Domain and use it to configure your Web Service to make your domain accessible on HTTPS. 
 
@@ -57,7 +57,8 @@ sudo chmod 755 ./certs/example.*
 
 cd .. 
 
-``` 
+```
+
 
 ### 1.1.4 Download Sample Client 
 
@@ -68,19 +69,24 @@ Clone or download any of the following client applications based on your require
 
   * Javascript
 
-      * [One to One video call](https://github.com/airteliq/Airtel-IQ-one-to-one-Video-Chat-Sample-Web-Application-Javascript-Client)
+      * [One to One video call](https://github.com/airteliq/one-to-one-Video-Chat-Sample-Web-Application-Javascript-Client)
 
       * [Multiparty video call](https://github.com/airteliq/Airtel-IQ-One-to-One-Video-Chat-Sample-Web-Application-Javascript-Client.git)
-  * React Js
-      * [One to One video call](https://github.com/airteliq/Airtel-IQ-One-to-One-Video-Chat-Sample-Web-Application-Reactjs-Client)
   
-  * Angular
-      * [One to One video call](https://github.com/airteliq/Airtel-IQ-One-to-One-Video-Chat-Sample-Angular-Application-Client)
+  * React Js
+  
+      * [One to One video call](https://github.com/airteliq/Airtel-IQ-One-to-One-Video-Chat-Sample-Web-Application-Reactjs-Client)
 
-
+  * Vuejs
+  
+      * [One to One video call](https://github.com/Airteliq/Airtel-IQ-One-to-One-Video-Chat-Sample-Web-Application-Vuejs-Client)
+  
+      * [Multiparty video call](https://github.com/Airteliq/Airtel-IQ-Multiparty-Video-Chat-Sample-Web-Application-Vuejs-Client)
    
-
- 
+   * Angular
+  
+       * [One to One video call](https://github.com/Airteliq/Airtel-IQ-One-to-One-Video-Chat-Sample-Angular-Application-Client)
+   
 
 ## 1.2. Configure Application Server 
 
@@ -132,7 +138,9 @@ cd server //Go to server directory
 
 node server.js // start the server 
 ```
-## Test Video Call
+  
+  
+## 2. Test 
 
 * Open a browser and go to https://localhost:5000/. The browser should load the App. Go to -> Advanced -> Proceed to localhost
 * Don't have a Room ID? Create here (create a new RoomID)
@@ -144,22 +152,21 @@ node server.js // start the server
 * Now, you should see your own video in both the tabs!
  
 
-# 2. Know more about Server API 
+# 3. Know more about Server API 
 
 A video Application Server communicates with Airtel IQ Video Service using Airtel IQ Server API, a Rest API Service used to provision and manage video rooms, create a token for client endpoints to join a session, and get post-session reports. 
 
 This sample Application Server demonstrates only primitive usage of Server APIs, however it is worth noting that the capabilities of Airtel IQ Server APIs are not limited to provisioning a meeting room. Explore Airtel IQ Server APIs to utilize them in the best way to meet your workflow and business requirements. 
 
-[Basics Understanding and Authentication](https://videoiq.airtel.in/video/server-api/)   
+[Basics Understanding and Authentication](https://www.videoiq.airtel.in/developer/video/server-api/)   
 
-[Latest Version of Server API Routes](https://videoiq.airtel.in/video-api/server-api/) 
-
+[Latest Version of Server API Routes](https://www.videoiq.airtel.in/developer/video-api/server-api/) 
  
 
-# 3. Support 
+# 4. Support 
 
 Airtel IQ provides a library of Documentations, How-to Guides, and Sample Codes to help software developers, interested in embedding RTC in their applications. 
 
-Refer to the [Complete Developer’s Guide](https://videoiq.airtel.in) for more details. 
+Refer to the [Complete Developer’s Guide](https://www.videoiq.airtel.in/developer/video-api/client-api/) for more details. 
 
 For any queries, you may also write to us at [support@videoiq.airtel.in](). 
